@@ -8,8 +8,15 @@
 .button-primary{
     background-color: var(--primary);
     border-color: var(--primary);
+    color: white;
 }
-.button-prymary:hover{
+.button-primary:hover , .button-primary-outline:hover{
+    color: white;
     background-color: var(--primary-dark);
     border-color: var(--primary-dark);
 }
+.button-primary-outline{
+    color: var(--primary);
+    border-color: var(--primary);
+}
+
