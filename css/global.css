@@ -1,0 +1,15 @@
+/*Meus css */
+.button{
+    text-transform: lowercase;
+    font-family: 500;
+    padding: auto 1.4rem;
+}
+
+.button-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+.button-prymary:hover{
+    background-color: var(--primary-dark);
+    border-color: var(--primary-dark);
+}
