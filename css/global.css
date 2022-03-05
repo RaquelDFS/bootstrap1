@@ -1,4 +1,15 @@
 /*Meus css */
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+
+}
+.title{
+    text-transform: uppercase;
+}
+.sub-title{
+    color: var(--medium);
+    font-weight: 400;
+}
 .button{
     text-transform: lowercase;
     font-family: 500;
